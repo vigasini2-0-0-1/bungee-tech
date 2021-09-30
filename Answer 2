@@ -1,0 +1,4 @@
+import pandas as pd
+a = pd.read_csv("https://raw.githubusercontent.com/Bungeetech/internship-test2/master/input/question-2/main.csv")  
+ans = df.groupby('occupation').agg({'age': ['min', 'max']})
+ans
